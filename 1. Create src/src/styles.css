@@ -196,3 +196,33 @@ nav a:hover {
     padding: 80px 20px;
   }
 }
+.dashboard {
+  padding: 60px 8%;
+}
+
+.dashboard h2 {
+  margin-bottom: 25px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.dashboard-card {
+  background: #16162a;
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.dashboard-card h3 {
+  color: #00d084;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
