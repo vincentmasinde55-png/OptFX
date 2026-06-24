@@ -67,3 +67,5 @@ function App() {
 
 export default App;
 import Trading from "./trading";
+<Dashboard />
+<Trading />
