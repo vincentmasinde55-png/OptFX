@@ -226,3 +226,30 @@ nav a:hover {
   font-size: 1.1rem;
   font-weight: 600;
 }
+.trading-panel {
+  padding: 60px 8%;
+}
+
+.trade-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.trade-form input,
+.trade-form select {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #1c1c32;
+  color: white;
+}
+
+.proposal-box {
+  padding: 15px;
+  border-radius: 10px;
+  background: #16162a;
+  border: 1px solid rgba(255,255,255,0.08);
+}
